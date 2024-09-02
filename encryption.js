@@ -2,7 +2,6 @@
  * Key generation example
  * https://playcode.io/javascript
  */
-import * as CryptoJS from "crypto-js";
 async function generateKeyPair() {
   const keyGenOptions = {
     name: "ECDSA",
